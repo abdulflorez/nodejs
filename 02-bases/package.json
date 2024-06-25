@@ -6,10 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
     "start:dev": "echo 'Hola mundo desde script start:dev'",
     "start:stage": "echo 'Hola mundo desde script start:stage'"
-
   },
   "author": "Abdul Florez",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  },
+  "dependencies": {
+    "get-age": "^1.0.1",
+    "uuid": "^10.0.0"
+  }
 }
