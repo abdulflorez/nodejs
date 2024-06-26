@@ -13,6 +13,7 @@
   "author": "Abdul Florez",
   "license": "ISC",
   "devDependencies": {
+    "axios": "^1.7.2",
     "nodemon": "^3.1.3"
   },
   "dependencies": {

@@ -17,10 +17,15 @@
 //   console.log(user);
 
 // ---------- 05
-const { getUUID, getAge } = require('./plugins');
-const { buildMakePerson } = require('./js-foundation/05-factory');
+// const { getUUID, getAge } = require('./plugins');
+// const { buildMakePerson } = require('./js-foundation/05-factory');
 
-const makePerson = buildMakePerson({ getUUID, getAge });
-const obj = { name: 'John', birthdate: ' 1985-10-21' };
-const john = makePerson(obj);
-console.log(john);
+// const makePerson = buildMakePerson({ getUUID, getAge });
+// const obj = { name: 'John', birthdate: ' 1985-10-21' };
+// const john = makePerson(obj);
+// console.log(john);
+
+// ---------- 06
+const { getPokemonById } = require('./js-foundation/06-promises');
+
+getPokemonById(1);
