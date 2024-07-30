@@ -34,9 +34,9 @@
 //   .finally(() => console.log('Finalmente'));
 
 // ---------- Logs: Wiston
-const { buildLogger } = require('./plugins');
+// const { buildLogger } = require('./plugins');
 
-const logger = buildLogger('app.js');
+// const logger = buildLogger('app.js');
 
-logger.log('Hola Mundo');
-logger.error('Something went wrong');
+// logger.log('Hola Mundo');
+// logger.error('Something went wrong');
