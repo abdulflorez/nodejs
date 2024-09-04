@@ -1,5 +1,5 @@
 import fs from 'fs';
-import { yarg } from './config/plugin/yargs.plugin';
+import { yarg } from './config/plugin/yargs/yargs.plugin';
 
 const { b: base, l: limit, s: showTable } = yarg;
 let outputMessage = '';

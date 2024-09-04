@@ -1,4 +1,4 @@
-import { yarg } from './config/plugin/yargs.plugin';
+import { yarg } from './config/plugin/yargs/yargs.plugin';
 import { ServerApp } from './presentation/server-app';
 
 (async () => {
